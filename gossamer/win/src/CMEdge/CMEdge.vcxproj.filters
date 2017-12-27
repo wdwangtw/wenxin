@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PingAgent">
+      <UniqueIdentifier>{ccc0c1b4-a992-4bc8-a5bf-02fee70ac4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edge">
+      <UniqueIdentifier>{5444c9d2-0e88-438e-b2aa-ef307843b725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{385a3a88-c22d-45a9-bba9-fc4ee763ee8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vncLancher">
+      <UniqueIdentifier>{230c3fb2-7600-46ce-b11e-6aa3ad4aeb7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EdgeBaseDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PingAgent.h">
+      <Filter>PingAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="CMEdgeAdapter.h">
+      <Filter>Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceManager.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolProcessor.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+    <ClInclude Include="DataModule.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskData.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskService.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupVpnProcessor.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+    <ClInclude Include="GetVersionProcessor.h">
+      <Filter>vncLancher</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PingAgent.cpp">
+      <Filter>PingAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="CMEdgeAdapter.cpp">
+      <Filter>Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceManager.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolProcessor.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+    <ClCompile Include="DataModule.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskData.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskService.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetVersionProcessor.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupVpnProcessor.cpp">
+      <Filter>vncLancher</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
